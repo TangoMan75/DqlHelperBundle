@@ -1,0 +1,6 @@
+# Doctrine Configuration
+doctrine:
+    orm:
+        dql:
+            numeric_functions:
+                DISTANCE: TangoMan\DqlHelperBundle\DQL\DISTANCE
