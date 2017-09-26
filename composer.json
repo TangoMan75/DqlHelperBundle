@@ -1,0 +1,32 @@
+{
+    "name": "tangoman/dql-helper-bundle",
+    "description": "Symfony DQL Helper Bundle",
+    "version": "1.0.0",
+    "type": "symfony-bundle",
+    "keywords": [
+        "Symfony",
+        "DQL",
+        "Helper",
+        "DISTANCE",
+        "Bundle",
+        "TangoMan"
+    ],
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Morin",
+            "email": "matthias.morin@gmail.com"
+        }
+    ],
+    "require": {
+        "php"                         : ">=5.4.0",
+        "symfony/framework-bundle"    : "~2.3|~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TangoMan\\DqlHelperBundle\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
